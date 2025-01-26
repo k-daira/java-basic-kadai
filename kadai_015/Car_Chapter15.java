@@ -6,6 +6,8 @@ public class Car_Chapter15 {
 	private int speed = 10;
 
 	public void gearChange(int afterGear) {
+		System.out.println("ギア"+gear+"から"+afterGear+"に切り替えました");
+		
 		switch (afterGear) {
 		case 1 -> speed = 10;
 		case 2 -> speed = 20;

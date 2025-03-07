@@ -26,11 +26,11 @@ public class Dictionary_Chapter21 {
 
 	public void check(String word) {
 		if (searchDic(word)) {
-			System.out.println(fruits.get(word));
+			System.out.println(word + "の意味は" + fruits.get(word));
 		}
 
 		else {
-			System.out.println(word + " は辞書に存在しません");
+			System.out.println(word + "は辞書に存在しません");
 
 		}
 
